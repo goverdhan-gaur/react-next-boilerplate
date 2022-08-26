@@ -1,4 +1,3 @@
-import propTypes from 'prop-types';
 import * as Styled from './Homepage.styled.js';
 
 /**
@@ -7,7 +6,7 @@ import * as Styled from './Homepage.styled.js';
  */
 Homepage.propTypes = {
   //
-}
+};
 
 /**
  * Default Props for the component
@@ -15,7 +14,7 @@ Homepage.propTypes = {
  */
 Homepage.defaultProps = {
   //
-}
+};
 
 export default function Homepage(props) {
   return (

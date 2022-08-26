@@ -4,6 +4,7 @@
       "source.fixAll.eslint": true
     },
     "stylelint.autoFixOnSave": true,
+    "eslint.validate": ["javascript"],
     "javascript.preferences.importModuleSpecifierEnding": "js",
     "javascript.preferences.importModuleSpecifier": "non-relative"
 }
