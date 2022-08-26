@@ -5,11 +5,11 @@ const create = require('./_create');
 
 const args = argv ? { name : argv.n , stories : argv.s } : {};
 
-const basePath = path.join(__dirname, "../../src/components/");
+const basePath = path.join(__dirname, '../../src/components/');
 
 const generateComponent = async () => {
     if(!args.name){
-        const a = await prompt((input) => {
+        await prompt((input) => {
             const dirPath = path.join(basePath, input.name);
             create(dirPath, input);
         });
